@@ -1,10 +1,11 @@
 /*font-families*/
 p {
-	font-family: Arial;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 h1 {
-	font-family: Georgia;
+	font-family: 'Playfair Display', serif;
+
 }
 
 /*font-sizes*/
@@ -26,7 +27,7 @@ span {
 
 /*font-weights*/
 p {
-	font-weight: bold;
+	font-weight: normal;
 }
 
 /*line-heights*/
