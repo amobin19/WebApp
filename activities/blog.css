@@ -2,7 +2,7 @@
 	border: 20px solid #bdc3c7;
 	margin: 20px auto;
 	width: 90%;
-	max-width: 700px;
+	max-width: 740px;
 	padding-bottom: 20px;
 }
 
@@ -12,7 +12,7 @@ h4 {
 	text-transform: uppercase;
 	font-weight: 100;
 	padding-left: 2.5%;
-	letter-spacing: 3px;
+	letter-spacing: 0.2rem; /* size mult by root elem */
 }
 
 h2 {
@@ -36,11 +36,10 @@ p {
 	margin-left: 2.5%;
 }
 
-hr {
+hr { /* code from online */
 	border: 0;
     height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.1); 
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     margin: 0 2.5%;
-
 }
